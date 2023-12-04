@@ -12,7 +12,7 @@ namespace RiddlesOfSphinx.Models
         public char Answer5 { get; } = 'E';
 
         // The constructor
-        public Riddles(char myAnswer1, char myAnswer2, char myAnswer3, char myAnswer4, char myAnswer5)
+        public Riddles(char myAnswer1, char myAnswer2, char myAnswer3, char myAnswer4, char myAnswer5 )
         {
             Answer1 = myAnswer1;
             Answer2 = myAnswer2;
